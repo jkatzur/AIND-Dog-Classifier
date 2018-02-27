@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0050)file:///Users/jkatzur/Downloads/dog_app%20(1).html -->
+<!-- saved from url=(0050)file:///Users/jkatzur/Downloads/dog_app%20(2).html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>dog_app</title><script src="./report_files/require.min.js"></script>
 <script src="./report_files/jquery.min.js"></script>
@@ -11895,7 +11895,7 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Artificial-Intelligence-Nanodegree">Artificial Intelligence Nanodegree<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Artificial-Intelligence-Nanodegree">¶</a></h1><h2 id="Convolutional-Neural-Networks">Convolutional Neural Networks<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Convolutional-Neural-Networks">¶</a></h2><h2 id="Project:-Write-an-Algorithm-for-a-Dog-Identification-App">Project: Write an Algorithm for a Dog Identification App<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Project:-Write-an-Algorithm-for-a-Dog-Identification-App">¶</a></h2><hr>
+<h1 id="Artificial-Intelligence-Nanodegree">Artificial Intelligence Nanodegree<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Artificial-Intelligence-Nanodegree">Â¶</a></h1><h2 id="Convolutional-Neural-Networks">Convolutional Neural Networks<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Convolutional-Neural-Networks">Â¶</a></h2><h2 id="Project:-Write-an-Algorithm-for-a-Dog-Identification-App">Project: Write an Algorithm for a Dog Identification App<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Project:-Write-an-Algorithm-for-a-Dog-Identification-App">Â¶</a></h2><hr>
 <p>In this notebook, some template code has already been provided for you, and you will need to implement additional functionality to successfully complete this project. You will not need to modify the included code beyond what is requested. Sections that begin with <strong>'(IMPLEMENTATION)'</strong> in the header indicate that the following block of code will require additional functionality which you must provide. Instructions will be provided for each section, and the specifics of the implementation are marked in the code block with a 'TODO' statement. Please be sure to read the instructions carefully!</p>
 <blockquote><p><strong>Note</strong>: Once you have completed all of the code implementations, you need to finalize your work by exporting the iPython Notebook as an HTML document. Before exporting the notebook to html, all of the code cells need to have been run so that reviewers can see the final implementation and output. You can then export the notebook by using the menu above and navigating to  \n",
     "<strong>File -&gt; Download as -&gt; HTML (.html)</strong>. Include the finished document along with this notebook as your submission.</p>
@@ -11905,23 +11905,23 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 </blockquote>
 <p>The rubric contains <em>optional</em> "Stand Out Suggestions" for enhancing the project beyond the minimum requirements. If you decide to pursue the "Stand Out Suggestions", you should include the code in this IPython notebook.</p>
 <hr>
-<h3 id="Why-We&#39;re-Here">Why We're Here<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Why-We&#39;re-Here">¶</a></h3><p>In this notebook, you will make the first steps towards developing an algorithm that could be used as part of a mobile or web app.  At the end of this project, your code will accept any user-supplied image as input.  If a dog is detected in the image, it will provide an estimate of the dog's breed.  If a human is detected, it will provide an estimate of the dog breed that is most resembling.  The image below displays potential sample output of your finished project (... but we expect that each student's algorithm will behave differently!).</p>
+<h3 id="Why-We&#39;re-Here">Why We're Here<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Why-We&#39;re-Here">Â¶</a></h3><p>In this notebook, you will make the first steps towards developing an algorithm that could be used as part of a mobile or web app.  At the end of this project, your code will accept any user-supplied image as input.  If a dog is detected in the image, it will provide an estimate of the dog's breed.  If a human is detected, it will provide an estimate of the dog breed that is most resembling.  The image below displays potential sample output of your finished project (... but we expect that each student's algorithm will behave differently!).</p>
 <p><img src="file:///Users/jkatzur/Downloads/images/sample_dog_output.png" alt="Sample Dog Output"></p>
 <p>In this real-world setting, you will need to piece together a series of models to perform different tasks; for instance, the algorithm that detects humans in an image will be different from the CNN that infers dog breed.  There are many points of possible failure, and no perfect algorithm exists.  Your imperfect solution will nonetheless create a fun user experience!</p>
-<h3 id="The-Road-Ahead">The Road Ahead<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#The-Road-Ahead">¶</a></h3><p>We break the notebook into separate steps.  Feel free to use the links below to navigate the notebook.</p>
+<h3 id="The-Road-Ahead">The Road Ahead<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#The-Road-Ahead">Â¶</a></h3><p>We break the notebook into separate steps.  Feel free to use the links below to navigate the notebook.</p>
 <ul>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step0">Step 0</a>: Import Datasets</li>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step1">Step 1</a>: Detect Humans</li>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step2">Step 2</a>: Detect Dogs</li>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step3">Step 3</a>: Create a CNN to Classify Dog Breeds (from Scratch)</li>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step4">Step 4</a>: Use a CNN to Classify Dog Breeds (using Transfer Learning)</li>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step5">Step 5</a>: Create a CNN to Classify Dog Breeds (using Transfer Learning)</li>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step6">Step 6</a>: Write your Algorithm</li>
-<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#step7">Step 7</a>: Test Your Algorithm</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step0">Step 0</a>: Import Datasets</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step1">Step 1</a>: Detect Humans</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step2">Step 2</a>: Detect Dogs</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step3">Step 3</a>: Create a CNN to Classify Dog Breeds (from Scratch)</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step4">Step 4</a>: Use a CNN to Classify Dog Breeds (using Transfer Learning)</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step5">Step 5</a>: Create a CNN to Classify Dog Breeds (using Transfer Learning)</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step6">Step 6</a>: Write your Algorithm</li>
+<li><a href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#step7">Step 7</a>: Test Your Algorithm</li>
 </ul>
 <hr>
 <p><a id="step0"></a></p>
-<h2 id="Step-0:-Import-Datasets">Step 0: Import Datasets<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-0:-Import-Datasets">¶</a></h2><h3 id="Import-Dog-Dataset">Import Dog Dataset<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Import-Dog-Dataset">¶</a></h3><p>In the code cell below, we import a dataset of dog images.  We populate a few variables through the use of the <code>load_files</code> function from the scikit-learn library:</p>
+<h2 id="Step-0:-Import-Datasets">Step 0: Import Datasets<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-0:-Import-Datasets">Â¶</a></h2><h3 id="Import-Dog-Dataset">Import Dog Dataset<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Import-Dog-Dataset">Â¶</a></h3><p>In the code cell below, we import a dataset of dog images.  We populate a few variables through the use of the <code>load_files</code> function from the scikit-learn library:</p>
 <ul>
 <li><code>train_files</code>, <code>valid_files</code>, <code>test_files</code> - numpy arrays containing file paths to images</li>
 <li><code>train_targets</code>, <code>valid_targets</code>, <code>test_targets</code> - numpy arrays containing onehot-encoded classification labels </li>
@@ -11936,10 +11936,10 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="k">import</span> <span class="n">load_files</span>       
-<span class="kn">from</span> <span class="nn">keras.utils</span> <span class="k">import</span> <span class="n">np_utils</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">from</span> <span class="nn">glob</span> <span class="k">import</span> <span class="n">glob</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">load_files</span>       
+<span class="kn">from</span> <span class="nn">keras.utils</span> <span class="kn">import</span> <span class="n">np_utils</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">glob</span> <span class="kn">import</span> <span class="n">glob</span>
 
 <span class="c1"># define function to load train, test, and validation datasets</span>
 <span class="k">def</span> <span class="nf">load_dataset</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
@@ -11959,11 +11959,11 @@ img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!importan
 <span class="n">dog_names</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">20</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">glob</span><span class="p">(</span><span class="s2">"dogImages/train/*/"</span><span class="p">))]</span>
 
 <span class="c1"># print statistics about the dataset</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> total dog categories.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">dog_names</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%s</span><span class="s1"> total dog images.</span><span class="se">\n</span><span class="s1">'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">([</span><span class="n">train_files</span><span class="p">,</span> <span class="n">valid_files</span><span class="p">,</span> <span class="n">test_files</span><span class="p">])))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> training dog images.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_files</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> validation dog images.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">valid_files</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> test dog images.'</span><span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">test_files</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> total dog categories.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">dog_names</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%s</span><span class="s1"> total dog images.</span><span class="se">\n</span><span class="s1">'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">([</span><span class="n">train_files</span><span class="p">,</span> <span class="n">valid_files</span><span class="p">,</span> <span class="n">test_files</span><span class="p">])))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> training dog images.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_files</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> validation dog images.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">valid_files</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> test dog images.'</span><span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">test_files</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12015,7 +12015,7 @@ There are 836 test dog images.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Import-Human-Dataset">Import Human Dataset<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Import-Human-Dataset">¶</a></h3><p>In the code cell below, we import a dataset of human images, where the file paths are stored in the numpy array <code>human_files</code>.</p>
+<h3 id="Import-Human-Dataset">Import Human Dataset<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Import-Human-Dataset">Â¶</a></h3><p>In the code cell below, we import a dataset of human images, where the file paths are stored in the numpy array <code>human_files</code>.</p>
 
 </div>
 </div>
@@ -12025,7 +12025,7 @@ There are 836 test dog images.
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
 <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">8675309</span><span class="p">)</span>
 
 <span class="c1"># load filenames in shuffled human dataset</span>
@@ -12033,7 +12033,7 @@ There are 836 test dog images.
 <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">human_files</span><span class="p">)</span>
 
 <span class="c1"># print statistics about the dataset</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> total human images.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">human_files</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%d</span><span class="s1"> total human images.'</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">human_files</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12065,7 +12065,7 @@ There are 836 test dog images.
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <p><a id="step1"></a></p>
-<h2 id="Step-1:-Detect-Humans">Step 1: Detect Humans<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-1:-Detect-Humans">¶</a></h2><p>We use OpenCV's implementation of <a href="http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html">Haar feature-based cascade classifiers</a> to detect human faces in images.  OpenCV provides many pre-trained face detectors, stored as XML files on <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades">github</a>.  We have downloaded one of these detectors and stored it in the <code>haarcascades</code> directory.</p>
+<h2 id="Step-1:-Detect-Humans">Step 1: Detect Humans<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-1:-Detect-Humans">Â¶</a></h2><p>We use OpenCV's implementation of <a href="http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html">Haar feature-based cascade classifiers</a> to detect human faces in images.  OpenCV provides many pre-trained face detectors, stored as XML files on <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades">github</a>.  We have downloaded one of these detectors and stored it in the <code>haarcascades</code> directory.</p>
 <p>In the next code cell, we demonstrate how to use this detector to find human faces in a sample image.</p>
 
 </div>
@@ -12076,9 +12076,9 @@ There are 836 test dog images.
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">cv2</span>                
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">matplotlib.image</span> <span class="k">as</span> <span class="nn">mpimg</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">cv2</span>                
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.image</span> <span class="kn">as</span> <span class="nn">mpimg</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline                               
 
 <span class="c1"># extract pre-trained face detector</span>
@@ -12093,7 +12093,7 @@ There are 836 test dog images.
 <span class="n">faces</span> <span class="o">=</span> <span class="n">face_cascade</span><span class="o">.</span><span class="n">detectMultiScale</span><span class="p">(</span><span class="n">gray</span><span class="p">)</span>
 
 <span class="c1"># print number of faces detected in the image</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Number of faces detected:'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">faces</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'Number of faces detected:'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">faces</span><span class="p">))</span>
 
 <span class="c1"># get bounding box for each detected face</span>
 <span class="k">for</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">w</span><span class="p">,</span><span class="n">h</span><span class="p">)</span> <span class="ow">in</span> <span class="n">faces</span><span class="p">:</span>
@@ -12150,7 +12150,7 @@ There are 836 test dog images.
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Before using any of the face detectors, it is standard procedure to convert the images to grayscale.  The <code>detectMultiScale</code> function executes the classifier stored in <code>face_cascade</code> and takes the grayscale image as a parameter.</p>
 <p>In the above code, <code>faces</code> is a numpy array of detected faces, where each row corresponds to a detected face.  Each detected face is a 1D array with four entries that specifies the bounding box of the detected face.  The first two entries in the array (extracted in the above code as <code>x</code> and <code>y</code>) specify the horizontal and vertical positions of the top left corner of the bounding box.  The last two entries in the array (extracted here as <code>w</code> and <code>h</code>) specify the width and height of the box.</p>
-<h3 id="Write-a-Human-Face-Detector">Write a Human Face Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Write-a-Human-Face-Detector">¶</a></h3><p>We can use this procedure to write a function that returns <code>True</code> if a human face is detected in an image and <code>False</code> otherwise.  This function, aptly named <code>face_detector</code>, takes a string-valued file path to an image as input and appears in the code block below.</p>
+<h3 id="Write-a-Human-Face-Detector">Write a Human Face Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Write-a-Human-Face-Detector">Â¶</a></h3><p>We can use this procedure to write a function that returns <code>True</code> if a human face is detected in an image and <code>False</code> otherwise.  This function, aptly named <code>face_detector</code>, takes a string-valued file path to an image as input and appears in the code block below.</p>
 
 </div>
 </div>
@@ -12160,7 +12160,7 @@ There are 836 test dog images.
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># returns "True" if face is detected in image stored at img_path</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># returns "True" if face is detected in image stored at img_path</span>
 <span class="k">def</span> <span class="nf">face_detector</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
     <span class="n">img</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
     <span class="n">gray</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2GRAY</span><span class="p">)</span>
@@ -12177,7 +12177,7 @@ There are 836 test dog images.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Assess-the-Human-Face-Detector">(IMPLEMENTATION) Assess the Human Face Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Assess-the-Human-Face-Detector">¶</a></h3><p><strong>Question 1:</strong> Use the code cell below to test the performance of the <code>face_detector</code> function.</p>
+<h3 id="(IMPLEMENTATION)-Assess-the-Human-Face-Detector">(IMPLEMENTATION) Assess the Human Face Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Assess-the-Human-Face-Detector">Â¶</a></h3><p><strong>Question 1:</strong> Use the code cell below to test the performance of the <code>face_detector</code> function.</p>
 <ul>
 <li>What percentage of the first 100 images in <code>human_files</code> have a detected human face?  </li>
 <li>What percentage of the first 100 images in <code>dog_files</code> have a detected human face? </li>
@@ -12193,15 +12193,15 @@ There are 836 test dog images.
 <div class="prompt input_prompt">In&nbsp;[79]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">human_files_short</span> <span class="o">=</span> <span class="n">human_files</span><span class="p">[:</span><span class="mi">100</span><span class="p">]</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">human_files_short</span> <span class="o">=</span> <span class="n">human_files</span><span class="p">[:</span><span class="mi">100</span><span class="p">]</span>
 <span class="n">dog_files_short</span> <span class="o">=</span> <span class="n">train_files</span><span class="p">[:</span><span class="mi">100</span><span class="p">]</span>
 
 <span class="c1"># Looking at the human and dog data to see face detection</span>
 
-<span class="n">num_human_faces</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">human_files_short</span> <span class="k">if</span> <span class="n">face_detector</span><span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span>
-<span class="n">num_dog_faces</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">dog_files_short</span> <span class="k">if</span> <span class="n">face_detector</span><span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s2">"Number of human faces: </span><span class="si">%d</span><span class="s2"> / 100, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span> <span class="p">(</span><span class="n">num_human_faces</span><span class="p">,</span> <span class="n">num_human_faces</span><span class="p">))</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s2">"Number of dog faces: </span><span class="si">%d</span><span class="s2"> / 100, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span> <span class="p">(</span><span class="n">num_dog_faces</span><span class="p">,</span> <span class="n">num_dog_faces</span><span class="p">))</span>
+<span class="n">num_human_faces</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">human_files_short</span> <span class="k">if</span> <span class="n">face_detector</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span> <span class="o">==</span> <span class="bp">True</span><span class="p">)</span>
+<span class="n">num_dog_faces</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">dog_files_short</span> <span class="k">if</span> <span class="n">face_detector</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span> <span class="o">==</span> <span class="bp">True</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="s2">"Number of human faces: </span><span class="si">%d</span><span class="s2"> / 100, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span> <span class="p">(</span><span class="n">num_human_faces</span><span class="p">,</span> <span class="n">num_human_faces</span><span class="p">))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s2">"Number of dog faces: </span><span class="si">%d</span><span class="s2"> / 100, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span> <span class="p">(</span><span class="n">num_dog_faces</span><span class="p">,</span> <span class="n">num_dog_faces</span><span class="p">))</span>
 
 <span class="sd">"""</span>
 <span class="sd"># Quick test to see which person did not register as having a human face. </span>
@@ -12277,7 +12277,7 @@ Number of dog faces: 12 / 100, 12 %
 <div class="prompt input_prompt">In&nbsp;[80]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Haar classification using the face_detector method from OpenCV seems to do a very good job of detecting human</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## Haar classification using the face_detector method from OpenCV seems to do a very good job of detecting human</span>
 <span class="c1">## images. It has only 1 false negative out of 100 images. In that image Goldie Hawn has a lot of long blond hair</span>
 <span class="c1">## that obscure the boundaries of her face, which would make any method perform worse.</span>
 
@@ -12301,7 +12301,7 @@ Number of dog faces: 12 / 100, 12 %
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <p><a id="step2"></a></p>
-<h2 id="Step-2:-Detect-Dogs">Step 2: Detect Dogs<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-2:-Detect-Dogs">¶</a></h2><p>In this section, we use a pre-trained <a href="http://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006">ResNet-50</a> model to detect dogs in images.  Our first line of code downloads the ResNet-50 model, along with weights that have been trained on <a href="http://www.image-net.org/">ImageNet</a>, a very large, very popular dataset used for image classification and other vision tasks.  ImageNet contains over 10 million URLs, each linking to an image containing an object from one of <a href="https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a">1000 categories</a>.  Given an image, this pre-trained ResNet-50 model returns a prediction (derived from the available categories in ImageNet) for the object that is contained in the image.</p>
+<h2 id="Step-2:-Detect-Dogs">Step 2: Detect Dogs<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-2:-Detect-Dogs">Â¶</a></h2><p>In this section, we use a pre-trained <a href="http://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006">ResNet-50</a> model to detect dogs in images.  Our first line of code downloads the ResNet-50 model, along with weights that have been trained on <a href="http://www.image-net.org/">ImageNet</a>, a very large, very popular dataset used for image classification and other vision tasks.  ImageNet contains over 10 million URLs, each linking to an image containing an object from one of <a href="https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a">1000 categories</a>.  Given an image, this pre-trained ResNet-50 model returns a prediction (derived from the available categories in ImageNet) for the object that is contained in the image.</p>
 
 </div>
 </div>
@@ -12311,7 +12311,7 @@ Number of dog faces: 12 / 100, 12 %
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="k">import</span> <span class="n">ResNet50</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="kn">import</span> <span class="n">ResNet50</span>
 
 <span class="c1"># The thinking in this strategy is we can use the ResNet-50 models beginning convolutional pieces to determine</span>
 <span class="c1"># all of the key features that define "dog" - fur, paws, snout, ears, etc... Then we'll replace the final layers</span>
@@ -12330,20 +12330,17 @@ Number of dog faces: 12 / 100, 12 %
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Pre-process-the-Data">Pre-process the Data<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Pre-process-the-Data">¶</a></h3><p>When using TensorFlow as backend, Keras CNNs require a 4D array (which we'll also refer to as a 4D tensor) as input, with shape</p>
-<p><span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mtext&gt;nb_samples&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mtext&gt;rows&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mtext&gt;columns&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mtext&gt;channels&lt;/mtext&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="text-align: center; position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 18.813em; display: inline-block;"><span style="display: inline-block; position: relative; width: 15.658em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1015.6em 2.979em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mo" id="MathJax-Span-3" style="font-family: STIXGeneral-Regular;">(</span><span class="mtext" id="MathJax-Span-4" style="font-family: STIXGeneral-Regular;">nb_samples</span><span class="mo" id="MathJax-Span-5" style="font-family: STIXGeneral-Regular;">,</span><span class="mtext" id="MathJax-Span-6" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">rows</span><span class="mo" id="MathJax-Span-7" style="font-family: STIXGeneral-Regular;">,</span><span class="mtext" id="MathJax-Span-8" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">columns</span><span class="mo" id="MathJax-Span-9" style="font-family: STIXGeneral-Regular;">,</span><span class="mtext" id="MathJax-Span-10" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">channels</span><span class="mo" id="MathJax-Span-11" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-12" style="font-family: STIXGeneral-Regular;">,</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.354em; border-left: 0px solid; width: 0px; height: 1.218em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo stretchy="false">(</mo><mtext>nb_samples</mtext><mo>,</mo><mtext>rows</mtext><mo>,</mo><mtext>columns</mtext><mo>,</mo><mtext>channels</mtext><mo stretchy="false">)</mo><mo>,</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1">
+<h3 id="Pre-process-the-Data">Pre-process the Data<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Pre-process-the-Data">Â¶</a></h3><p>When using TensorFlow as backend, Keras CNNs require a 4D array (which we'll also refer to as a 4D tensor) as input, with shape</p>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mtext&gt;nb_samples&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mtext&gt;rows&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mtext&gt;columns&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mtext&gt;channels&lt;/mtext&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 18.813em; display: inline-block;"><span style="display: inline-block; position: relative; width: 15.658em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1015.6em 2.979em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mo" id="MathJax-Span-3" style="font-family: STIXGeneral-Regular;">(</span><span class="mtext" id="MathJax-Span-4" style="font-family: STIXGeneral-Regular;">nb_samples</span><span class="mo" id="MathJax-Span-5" style="font-family: STIXGeneral-Regular;">,</span><span class="mtext" id="MathJax-Span-6" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">rows</span><span class="mo" id="MathJax-Span-7" style="font-family: STIXGeneral-Regular;">,</span><span class="mtext" id="MathJax-Span-8" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">columns</span><span class="mo" id="MathJax-Span-9" style="font-family: STIXGeneral-Regular;">,</span><span class="mtext" id="MathJax-Span-10" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">channels</span><span class="mo" id="MathJax-Span-11" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-12" style="font-family: STIXGeneral-Regular;">,</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.354em; border-left: 0px solid; width: 0px; height: 1.218em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo stretchy="false">(</mo><mtext>nb_samples</mtext><mo>,</mo><mtext>rows</mtext><mo>,</mo><mtext>columns</mtext><mo>,</mo><mtext>channels</mtext><mo stretchy="false">)</mo><mo>,</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1">
 (\text{nb_samples}, \text{rows}, \text{columns}, \text{channels}),
-</script></p>
-<p>where <code>nb_samples</code> corresponds to the total number of images (or samples), and <code>rows</code>, <code>columns</code>, and <code>channels</code> correspond to the number of rows, columns, and channels for each image, respectively.</p>
-<p>The <code>path_to_tensor</code> function below takes a string-valued file path to a color image as input and returns a 4D tensor suitable for supplying to a Keras CNN.  The function first loads the image and resizes it to a square image that is <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-13" style="width: 4.943em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.11em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1004.11em 2.741em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-14"><span class="mn" id="MathJax-Span-15" style="font-family: STIXGeneral-Regular;">224</span><span class="mo" id="MathJax-Span-16" style="font-family: STIXGeneral-Regular; padding-left: 0.241em;">×</span><span class="mn" id="MathJax-Span-17" style="font-family: STIXGeneral-Regular; padding-left: 0.241em;">224</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>224</mn><mo>×</mo><mn>224</mn></math></span></span><script type="math/tex" id="MathJax-Element-2">224 \times 224</script> pixels.  Next, the image is converted to an array, which is then resized to a 4D tensor.  In this case, since we are working with color images, each image has three channels.  Likewise, since we are processing a single image (or sample), the returned tensor will always have shape</p>
-<p><span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;.&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="text-align: center; position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-18" style="width: 7.443em; display: inline-block;"><span style="display: inline-block; position: relative; width: 6.193em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1006.13em 2.92em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-19"><span class="mo" id="MathJax-Span-20" style="font-family: STIXGeneral-Regular;">(</span><span class="mn" id="MathJax-Span-21" style="font-family: STIXGeneral-Regular;">1</span><span class="mo" id="MathJax-Span-22" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-23" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-24" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-25" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-26" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-27" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">3</span><span class="mo" id="MathJax-Span-28" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-29" style="font-family: STIXGeneral-Regular;">.</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 1.146em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>224</mn><mo>,</mo><mn>224</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo><mo>.</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-3">
+</script><p>where <code>nb_samples</code> corresponds to the total number of images (or samples), and <code>rows</code>, <code>columns</code>, and <code>channels</code> correspond to the number of rows, columns, and channels for each image, respectively.</p>
+<p>The <code>path_to_tensor</code> function below takes a string-valued file path to a color image as input and returns a 4D tensor suitable for supplying to a Keras CNN.  The function first loads the image and resizes it to a square image that is <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-13" style="width: 4.943em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.11em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1004.11em 2.741em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-14"><span class="mn" id="MathJax-Span-15" style="font-family: STIXGeneral-Regular;">224</span><span class="mo" id="MathJax-Span-16" style="font-family: STIXGeneral-Regular; padding-left: 0.241em;">×</span><span class="mn" id="MathJax-Span-17" style="font-family: STIXGeneral-Regular; padding-left: 0.241em;">224</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>224</mn><mo>×</mo><mn>224</mn></math></span></span><script type="math/tex" id="MathJax-Element-2">224 \times 224</script> pixels.  Next, the image is converted to an array, which is then resized to a 4D tensor.  In this case, since we are working with color images, each image has three channels.  Likewise, since we are processing a single image (or sample), the returned tensor will always have shape</p>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;.&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-18" style="width: 7.443em; display: inline-block;"><span style="display: inline-block; position: relative; width: 6.193em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1006.13em 2.92em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-19"><span class="mo" id="MathJax-Span-20" style="font-family: STIXGeneral-Regular;">(</span><span class="mn" id="MathJax-Span-21" style="font-family: STIXGeneral-Regular;">1</span><span class="mo" id="MathJax-Span-22" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-23" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-24" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-25" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-26" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-27" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">3</span><span class="mo" id="MathJax-Span-28" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-29" style="font-family: STIXGeneral-Regular;">.</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 1.146em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>224</mn><mo>,</mo><mn>224</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo><mo>.</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-3">
 (1, 224, 224, 3).
-</script></p>
-<p>The <code>paths_to_tensor</code> function takes a numpy array of string-valued image paths as input and returns a 4D tensor with shape</p>
-<p><span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mtext&gt;nb_samples&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;.&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="text-align: center; position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-30" style="width: 12.503em; display: inline-block;"><span style="display: inline-block; position: relative; width: 10.42em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1010.36em 2.979em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-31"><span class="mo" id="MathJax-Span-32" style="font-family: STIXGeneral-Regular;">(</span><span class="mtext" id="MathJax-Span-33" style="font-family: STIXGeneral-Regular;">nb_samples</span><span class="mo" id="MathJax-Span-34" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-35" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-36" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-37" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-38" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-39" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">3</span><span class="mo" id="MathJax-Span-40" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-41" style="font-family: STIXGeneral-Regular;">.</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.354em; border-left: 0px solid; width: 0px; height: 1.218em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo stretchy="false">(</mo><mtext>nb_samples</mtext><mo>,</mo><mn>224</mn><mo>,</mo><mn>224</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo><mo>.</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-4">
+</script><p>The <code>paths_to_tensor</code> function takes a numpy array of string-valued image paths as input and returns a 4D tensor with shape</p>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mtext&gt;nb_samples&lt;/mtext&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;224&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;.&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-30" style="width: 12.503em; display: inline-block;"><span style="display: inline-block; position: relative; width: 10.42em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1010.36em 2.979em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-31"><span class="mo" id="MathJax-Span-32" style="font-family: STIXGeneral-Regular;">(</span><span class="mtext" id="MathJax-Span-33" style="font-family: STIXGeneral-Regular;">nb_samples</span><span class="mo" id="MathJax-Span-34" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-35" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-36" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-37" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">224</span><span class="mo" id="MathJax-Span-38" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-39" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">3</span><span class="mo" id="MathJax-Span-40" style="font-family: STIXGeneral-Regular;">)</span><span class="mo" id="MathJax-Span-41" style="font-family: STIXGeneral-Regular;">.</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.354em; border-left: 0px solid; width: 0px; height: 1.218em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo stretchy="false">(</mo><mtext>nb_samples</mtext><mo>,</mo><mn>224</mn><mo>,</mo><mn>224</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo><mo>.</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-4">
 (\text{nb_samples}, 224, 224, 3).
-</script></p>
-<p>Here, <code>nb_samples</code> is the number of samples, or number of images, in the supplied array of image paths.  It is best to think of <code>nb_samples</code> as the number of 3D tensors (where each 3D tensor corresponds to a different image) in your dataset!</p>
+</script><p>Here, <code>nb_samples</code> is the number of samples, or number of images, in the supplied array of image paths.  It is best to think of <code>nb_samples</code> as the number of 3D tensors (where each 3D tensor corresponds to a different image) in your dataset!</p>
 
 </div>
 </div>
@@ -12353,8 +12350,8 @@ Number of dog faces: 12 / 100, 12 %
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.preprocessing</span> <span class="k">import</span> <span class="n">image</span>                  
-<span class="kn">from</span> <span class="nn">tqdm</span> <span class="k">import</span> <span class="n">tqdm</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">keras.preprocessing</span> <span class="kn">import</span> <span class="n">image</span>                  
+<span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
 
 <span class="k">def</span> <span class="nf">path_to_tensor</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
     <span class="c1"># loads RGB image as PIL.Image.Image type</span>
@@ -12378,7 +12375,7 @@ Number of dog faces: 12 / 100, 12 %
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Making-Predictions-with-ResNet-50">Making Predictions with ResNet-50<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Making-Predictions-with-ResNet-50">¶</a></h3><p>Getting the 4D tensor ready for ResNet-50, and for any other pre-trained model in Keras, requires some additional processing.  First, the RGB image is converted to BGR by reordering the channels.  All pre-trained models have the additional normalization step that the mean pixel (expressed in RGB as <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;[&lt;/mo&gt;&lt;mn&gt;103.939&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;116.779&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;123.68&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;]&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-42" style="width: 12.979em; display: inline-block;"><span style="display: inline-block; position: relative; width: 10.777em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1010.72em 2.92em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-43"><span class="mo" id="MathJax-Span-44" style="font-family: STIXGeneral-Regular;">[</span><span class="mn" id="MathJax-Span-45" style="font-family: STIXGeneral-Regular;">103.939</span><span class="mo" id="MathJax-Span-46" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-47" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">116.779</span><span class="mo" id="MathJax-Span-48" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-49" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">123.68</span><span class="mo" id="MathJax-Span-50" style="font-family: STIXGeneral-Regular;">]</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 1.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">[</mo><mn>103.939</mn><mo>,</mo><mn>116.779</mn><mo>,</mo><mn>123.68</mn><mo stretchy="false">]</mo></math></span></span><script type="math/tex" id="MathJax-Element-5">[103.939, 116.779, 123.68]</script> and calculated from all pixels in all images in ImageNet) must be subtracted from every pixel in each image.  This is implemented in the imported function <code>preprocess_input</code>.  If you're curious, you can check the code for <code>preprocess_input</code> <a href="https://github.com/fchollet/keras/blob/master/keras/applications/imagenet_utils.py">here</a>.</p>
+<h3 id="Making-Predictions-with-ResNet-50">Making Predictions with ResNet-50<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Making-Predictions-with-ResNet-50">Â¶</a></h3><p>Getting the 4D tensor ready for ResNet-50, and for any other pre-trained model in Keras, requires some additional processing.  First, the RGB image is converted to BGR by reordering the channels.  All pre-trained models have the additional normalization step that the mean pixel (expressed in RGB as <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;[&lt;/mo&gt;&lt;mn&gt;103.939&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;116.779&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;123.68&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;]&lt;/mo&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-42" style="width: 12.979em; display: inline-block;"><span style="display: inline-block; position: relative; width: 10.777em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1010.72em 2.92em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-43"><span class="mo" id="MathJax-Span-44" style="font-family: STIXGeneral-Regular;">[</span><span class="mn" id="MathJax-Span-45" style="font-family: STIXGeneral-Regular;">103.939</span><span class="mo" id="MathJax-Span-46" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-47" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">116.779</span><span class="mo" id="MathJax-Span-48" style="font-family: STIXGeneral-Regular;">,</span><span class="mn" id="MathJax-Span-49" style="font-family: STIXGeneral-Regular; padding-left: 0.182em;">123.68</span><span class="mo" id="MathJax-Span-50" style="font-family: STIXGeneral-Regular;">]</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 1.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">[</mo><mn>103.939</mn><mo>,</mo><mn>116.779</mn><mo>,</mo><mn>123.68</mn><mo stretchy="false">]</mo></math></span></span><script type="math/tex" id="MathJax-Element-5">[103.939, 116.779, 123.68]</script> and calculated from all pixels in all images in ImageNet) must be subtracted from every pixel in each image.  This is implemented in the imported function <code>preprocess_input</code>.  If you're curious, you can check the code for <code>preprocess_input</code> <a href="https://github.com/fchollet/keras/blob/master/keras/applications/imagenet_utils.py">here</a>.</p>
 <p>Now that we have a way to format our image for supplying to ResNet-50, we are now ready to use the model to extract the predictions.  This is accomplished with the <code>predict</code> method, which returns an array whose <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-51" style="width: 0.36em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.301em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1000.3em 2.741em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-52"><span class="mi" id="MathJax-Span-53" style="font-family: STIXGeneral-Italic;">i</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">i</script>-th entry is the model's predicted probability that the image belongs to the <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-54" style="width: 0.36em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.301em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.729em 1000.3em 2.741em -999.997em); top: -2.557em; left: 0em;"><span class="mrow" id="MathJax-Span-55"><span class="mi" id="MathJax-Span-56" style="font-family: STIXGeneral-Italic;">i</span></span><span style="display: inline-block; width: 0px; height: 2.562em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></span></span><script type="math/tex" id="MathJax-Element-7">i</script>-th ImageNet category.  This is implemented in the <code>ResNet50_predict_labels</code> function below.</p>
 <p>By taking the argmax of the predicted probability vector, we obtain an integer corresponding to the model's predicted object class, which we can identify with an object category through the use of this <a href="https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a">dictionary</a>.</p>
 
@@ -12390,7 +12387,7 @@ Number of dog faces: 12 / 100, 12 %
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="k">import</span> <span class="n">preprocess_input</span><span class="p">,</span> <span class="n">decode_predictions</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="kn">import</span> <span class="n">preprocess_input</span><span class="p">,</span> <span class="n">decode_predictions</span>
 
 <span class="k">def</span> <span class="nf">ResNet50_predict_labels</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
     <span class="c1"># returns prediction vector for image located at img_path</span>
@@ -12407,7 +12404,7 @@ Number of dog faces: 12 / 100, 12 %
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Write-a-Dog-Detector">Write a Dog Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Write-a-Dog-Detector">¶</a></h3><p>While looking at the <a href="https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a">dictionary</a>, you will notice that the categories corresponding to dogs appear in an uninterrupted sequence and correspond to dictionary keys 151-268, inclusive, to include all categories from <code>'Chihuahua'</code> to <code>'Mexican hairless'</code>.  Thus, in order to check to see if an image is predicted to contain a dog by the pre-trained ResNet-50 model, we need only check if the <code>ResNet50_predict_labels</code> function above returns a value between 151 and 268 (inclusive).</p>
+<h3 id="Write-a-Dog-Detector">Write a Dog Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Write-a-Dog-Detector">Â¶</a></h3><p>While looking at the <a href="https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a">dictionary</a>, you will notice that the categories corresponding to dogs appear in an uninterrupted sequence and correspond to dictionary keys 151-268, inclusive, to include all categories from <code>'Chihuahua'</code> to <code>'Mexican hairless'</code>.  Thus, in order to check to see if an image is predicted to contain a dog by the pre-trained ResNet-50 model, we need only check if the <code>ResNet50_predict_labels</code> function above returns a value between 151 and 268 (inclusive).</p>
 <p>We use these ideas to complete the <code>dog_detector</code> function below, which returns <code>True</code> if a dog is detected in an image (and <code>False</code> if not).</p>
 
 </div>
@@ -12418,7 +12415,7 @@ Number of dog faces: 12 / 100, 12 %
 <div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### returns "True" if a dog is detected in the image stored at img_path</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### returns "True" if a dog is detected in the image stored at img_path</span>
 <span class="k">def</span> <span class="nf">dog_detector</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
     <span class="n">prediction</span> <span class="o">=</span> <span class="n">ResNet50_predict_labels</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
     <span class="k">return</span> <span class="p">((</span><span class="n">prediction</span> <span class="o">&lt;=</span> <span class="mi">268</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">prediction</span> <span class="o">&gt;=</span> <span class="mi">151</span><span class="p">))</span> 
@@ -12433,7 +12430,7 @@ Number of dog faces: 12 / 100, 12 %
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Assess-the-Dog-Detector">(IMPLEMENTATION) Assess the Dog Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Assess-the-Dog-Detector">¶</a></h3><p><strong>Question 3:</strong> Use the code cell below to test the performance of your <code>dog_detector</code> function.</p>
+<h3 id="(IMPLEMENTATION)-Assess-the-Dog-Detector">(IMPLEMENTATION) Assess the Dog Detector<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Assess-the-Dog-Detector">Â¶</a></h3><p><strong>Question 3:</strong> Use the code cell below to test the performance of your <code>dog_detector</code> function.</p>
 <ul>
 <li>What percentage of the images in <code>human_files_short</code> have a detected dog?  </li>
 <li>What percentage of the images in <code>dog_files_short</code> have a detected dog?</li>
@@ -12448,13 +12445,13 @@ Number of dog faces: 12 / 100, 12 %
 <div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Test the performance of the dog_detector function</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### Test the performance of the dog_detector function</span>
 <span class="c1">### on the images in human_files_short and dog_files_short</span>
 
-<span class="n">num_dogs_humans</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">human_files_short</span> <span class="k">if</span> <span class="n">dog_detector</span><span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span>
-<span class="n">num_dogs_dogs</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">dog_files_short</span> <span class="k">if</span> <span class="n">dog_detector</span><span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s2">"Number of humans considered dogs: </span><span class="si">%d</span><span class="s2">, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span><span class="p">(</span><span class="n">num_dogs_humans</span><span class="p">,</span> <span class="n">num_dogs_humans</span><span class="p">))</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s2">"Number of dogs considered dogs: </span><span class="si">%d</span><span class="s2">, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span><span class="p">(</span><span class="n">num_dogs_dogs</span><span class="p">,</span><span class="n">num_dogs_dogs</span><span class="p">))</span>
+<span class="n">num_dogs_humans</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">human_files_short</span> <span class="k">if</span> <span class="n">dog_detector</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span> <span class="o">==</span> <span class="bp">True</span><span class="p">)</span>
+<span class="n">num_dogs_dogs</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">dog_files_short</span> <span class="k">if</span> <span class="n">dog_detector</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span> <span class="o">==</span> <span class="bp">True</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="s2">"Number of humans considered dogs: </span><span class="si">%d</span><span class="s2">, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span><span class="p">(</span><span class="n">num_dogs_humans</span><span class="p">,</span> <span class="n">num_dogs_humans</span><span class="p">))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s2">"Number of dogs considered dogs: </span><span class="si">%d</span><span class="s2">, </span><span class="si">%d</span><span class="s2"> </span><span class="si">%%</span><span class="s2">"</span> <span class="o">%</span><span class="p">(</span><span class="n">num_dogs_dogs</span><span class="p">,</span><span class="n">num_dogs_dogs</span><span class="p">))</span>
 
 <span class="sd">"""</span>
 <span class="sd"># We saw that 3 humans appeared as dogs. Let's see who they are!</span>
@@ -12514,7 +12511,7 @@ Number of dogs considered dogs: 100, 100 %
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <p><a id="step3"></a></p>
-<h2 id="Step-3:-Create-a-CNN-to-Classify-Dog-Breeds-(from-Scratch)">Step 3: Create a CNN to Classify Dog Breeds (from Scratch)<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-3:-Create-a-CNN-to-Classify-Dog-Breeds-(from-Scratch)">¶</a></h2><p>Now that we have functions for detecting humans and dogs in images, we need a way to predict breed from images.  In this step, you will create a CNN that classifies dog breeds.  You must create your CNN <em>from scratch</em> (so, you can't use transfer learning <em>yet</em>!), and you must attain a test accuracy of at least 1%.  In Step 5 of this notebook, you will have the opportunity to use transfer learning to create a CNN that attains greatly improved accuracy.</p>
+<h2 id="Step-3:-Create-a-CNN-to-Classify-Dog-Breeds-(from-Scratch)">Step 3: Create a CNN to Classify Dog Breeds (from Scratch)<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-3:-Create-a-CNN-to-Classify-Dog-Breeds-(from-Scratch)">Â¶</a></h2><p>Now that we have functions for detecting humans and dogs in images, we need a way to predict breed from images.  In this step, you will create a CNN that classifies dog breeds.  You must create your CNN <em>from scratch</em> (so, you can't use transfer learning <em>yet</em>!), and you must attain a test accuracy of at least 1%.  In Step 5 of this notebook, you will have the opportunity to use transfer learning to create a CNN that attains greatly improved accuracy.</p>
 <p>Be careful with adding too many trainable layers!  More parameters means longer training, which means you are more likely to need a GPU to accelerate the training process.  Thankfully, Keras provides a handy estimate of the time that each epoch is likely to take; you can extrapolate this estimate to figure out how long it will take for your algorithm to train.</p>
 <p>We mention that the task of assigning breed to dogs from images is considered exceptionally challenging.  To see why, consider that <em>even a human</em> would have great difficulty in distinguishing between a Brittany and a Welsh Springer Spaniel.</p>
 <table>
@@ -12562,7 +12559,7 @@ Number of dogs considered dogs: 100, 100 %
 </table>
 <p>We also mention that random chance presents an exceptionally low bar: setting aside the fact that the classes are slightly imabalanced, a random guess will provide a correct answer roughly 1 in 133 times, which corresponds to an accuracy of less than 1%.</p>
 <p>Remember that the practice is far ahead of the theory in deep learning.  Experiment with many different architectures, and trust your intuition.  And, of course, have fun!</p>
-<h3 id="Pre-process-the-Data">Pre-process the Data<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Pre-process-the-Data">¶</a></h3><p>We rescale the images by dividing every pixel in every image by 255.</p>
+<h3 id="Pre-process-the-Data">Pre-process the Data<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Pre-process-the-Data">Â¶</a></h3><p>We rescale the images by dividing every pixel in every image by 255.</p>
 
 </div>
 </div>
@@ -12572,8 +12569,8 @@ Number of dogs considered dogs: 100, 100 %
 <div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">PIL</span> <span class="k">import</span> <span class="n">ImageFile</span>                            
-<span class="n">ImageFile</span><span class="o">.</span><span class="n">LOAD_TRUNCATED_IMAGES</span> <span class="o">=</span> <span class="kc">True</span>                 
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">ImageFile</span>                            
+<span class="n">ImageFile</span><span class="o">.</span><span class="n">LOAD_TRUNCATED_IMAGES</span> <span class="o">=</span> <span class="bp">True</span>                 
 
 <span class="c1"># pre-process the data for Keras</span>
 <span class="n">train_tensors</span> <span class="o">=</span> <span class="n">paths_to_tensor</span><span class="p">(</span><span class="n">train_files</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">'float32'</span><span class="p">)</span><span class="o">/</span><span class="mi">255</span>
@@ -12610,7 +12607,7 @@ Number of dogs considered dogs: 100, 100 %
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Model-Architecture">(IMPLEMENTATION) Model Architecture<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Model-Architecture">¶</a></h3><p>Create a CNN to classify dog breed.  At the end of your code cell block, summarize the layers of your model by executing the line:</p>
+<h3 id="(IMPLEMENTATION)-Model-Architecture">(IMPLEMENTATION) Model Architecture<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Model-Architecture">Â¶</a></h3><p>Create a CNN to classify dog breed.  At the end of your code cell block, summarize the layers of your model by executing the line:</p>
 
 <pre><code>    model.summary()
 
@@ -12628,9 +12625,9 @@ Number of dogs considered dogs: 100, 100 %
 <div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.layers</span> <span class="k">import</span> <span class="n">Conv2D</span><span class="p">,</span> <span class="n">MaxPooling2D</span><span class="p">,</span> <span class="n">GlobalAveragePooling2D</span>
-<span class="kn">from</span> <span class="nn">keras.layers</span> <span class="k">import</span> <span class="n">Dropout</span><span class="p">,</span> <span class="n">Flatten</span><span class="p">,</span> <span class="n">Dense</span>
-<span class="kn">from</span> <span class="nn">keras.models</span> <span class="k">import</span> <span class="n">Sequential</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">keras.layers</span> <span class="kn">import</span> <span class="n">Conv2D</span><span class="p">,</span> <span class="n">MaxPooling2D</span><span class="p">,</span> <span class="n">GlobalAveragePooling2D</span>
+<span class="kn">from</span> <span class="nn">keras.layers</span> <span class="kn">import</span> <span class="n">Dropout</span><span class="p">,</span> <span class="n">Flatten</span><span class="p">,</span> <span class="n">Dense</span>
+<span class="kn">from</span> <span class="nn">keras.models</span> <span class="kn">import</span> <span class="n">Sequential</span>
 
 <span class="c1">## I picked this model structure based on the best practices described in the course. I started with alternating</span>
 <span class="c1">## convolutional and max pooling layers. The convolutional layers got progressively deeper, so the model learned</span>
@@ -12722,7 +12719,7 @@ _________________________________________________________________
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Compile-the-Model">Compile the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Compile-the-Model">¶</a></h3>
+<h3 id="Compile-the-Model">Compile the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Compile-the-Model">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -12731,7 +12728,7 @@ _________________________________________________________________
 <div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># I use adam instead of rmsprop for speed and performance</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># I use adam instead of rmsprop for speed and performance</span>
 <span class="n">model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">optimizer</span><span class="o">=</span><span class="s1">'adam'</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s1">'categorical_crossentropy'</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s1">'accuracy'</span><span class="p">])</span>
 </pre></div>
 
@@ -12744,7 +12741,7 @@ _________________________________________________________________
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Train-the-Model">(IMPLEMENTATION) Train the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Train-the-Model">¶</a></h3><p>Train your model in the code cell below.  Use model checkpointing to save the model that attains the best validation loss.</p>
+<h3 id="(IMPLEMENTATION)-Train-the-Model">(IMPLEMENTATION) Train the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Train-the-Model">Â¶</a></h3><p>Train your model in the code cell below.  Use model checkpointing to save the model that attains the best validation loss.</p>
 <p>You are welcome to <a href="https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html">augment the training data</a>, but this is not a requirement.</p>
 
 </div>
@@ -12755,14 +12752,14 @@ _________________________________________________________________
 <div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.callbacks</span> <span class="k">import</span> <span class="n">ModelCheckpoint</span>  
-<span class="kn">from</span> <span class="nn">keras.preprocessing.image</span> <span class="k">import</span> <span class="n">ImageDataGenerator</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">keras.callbacks</span> <span class="kn">import</span> <span class="n">ModelCheckpoint</span>  
+<span class="kn">from</span> <span class="nn">keras.preprocessing.image</span> <span class="kn">import</span> <span class="n">ImageDataGenerator</span>
 
 <span class="c1"># create and configure augmented image generator</span>
 <span class="c1"># randomly shift images horizontally (10% of total width)</span>
 <span class="c1"># randomly shift images vertically (10% of total height)</span>
 <span class="c1"># randomly flip images horizontally</span>
-<span class="n">datagen_train</span> <span class="o">=</span> <span class="n">ImageDataGenerator</span><span class="p">(</span><span class="n">width_shift_range</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">height_shift_range</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span><span class="n">horizontal_flip</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">datagen_train</span> <span class="o">=</span> <span class="n">ImageDataGenerator</span><span class="p">(</span><span class="n">width_shift_range</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">height_shift_range</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span><span class="n">horizontal_flip</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 
 <span class="c1"># fit augmented image generator on data</span>
 <span class="n">datagen_train</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">train_tensors</span><span class="p">)</span>
@@ -12773,7 +12770,7 @@ _________________________________________________________________
 <span class="c1">### Do NOT modify the code below this line.</span>
 
 <span class="n">checkpointer</span> <span class="o">=</span> <span class="n">ModelCheckpoint</span><span class="p">(</span><span class="n">filepath</span><span class="o">=</span><span class="s1">'saved_models/weights.best.from_scratch.hdf5'</span><span class="p">,</span> 
-                               <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">save_best_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                               <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">save_best_only</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 
 <span class="n">model</span><span class="o">.</span><span class="n">fit_generator</span><span class="p">(</span><span class="n">datagen_train</span><span class="o">.</span><span class="n">flow</span><span class="p">(</span><span class="n">train_tensors</span><span class="p">,</span> <span class="n">train_targets</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">),</span>
                     <span class="n">steps_per_epoch</span><span class="o">=</span><span class="n">train_tensors</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">//</span> <span class="n">batch_size</span><span class="p">,</span>
@@ -12861,7 +12858,7 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Load-the-Model-with-the-Best-Validation-Loss">Load the Model with the Best Validation Loss<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Load-the-Model-with-the-Best-Validation-Loss">¶</a></h3>
+<h3 id="Load-the-Model-with-the-Best-Validation-Loss">Load the Model with the Best Validation Loss<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Load-the-Model-with-the-Best-Validation-Loss">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -12870,7 +12867,7 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 <div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="s1">'saved_models/weights.best.from_scratch.hdf5'</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="s1">'saved_models/weights.best.from_scratch.hdf5'</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12882,7 +12879,7 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Test-the-Model">Test the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Test-the-Model">¶</a></h3><p>Try out your model on the test dataset of dog images.  Ensure that your test accuracy is greater than 1%.</p>
+<h3 id="Test-the-Model">Test the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Test-the-Model">Â¶</a></h3><p>Try out your model on the test dataset of dog images.  Ensure that your test accuracy is greater than 1%.</p>
 
 </div>
 </div>
@@ -12892,12 +12889,12 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 <div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># get index of predicted dog breed for each image in test set</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># get index of predicted dog breed for each image in test set</span>
 <span class="n">dog_breed_predictions</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">tensor</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)))</span> <span class="k">for</span> <span class="n">tensor</span> <span class="ow">in</span> <span class="n">test_tensors</span><span class="p">]</span>
 
 <span class="c1"># report test accuracy</span>
 <span class="n">test_accuracy</span> <span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">dog_breed_predictions</span><span class="p">)</span><span class="o">==</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">test_targets</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">dog_breed_predictions</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Test accuracy: </span><span class="si">%.4f%%</span><span class="s1">'</span> <span class="o">%</span> <span class="n">test_accuracy</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'Test accuracy: </span><span class="si">%.4f%%</span><span class="s1">'</span> <span class="o">%</span> <span class="n">test_accuracy</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12929,8 +12926,8 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <p><a id="step4"></a></p>
-<h2 id="Step-4:-Use-a-CNN-to-Classify-Dog-Breeds">Step 4: Use a CNN to Classify Dog Breeds<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-4:-Use-a-CNN-to-Classify-Dog-Breeds">¶</a></h2><p>To reduce training time without sacrificing accuracy, we show you how to train a CNN using transfer learning.  In the following step, you will get a chance to use transfer learning to train your own CNN.</p>
-<h3 id="Obtain-Bottleneck-Features">Obtain Bottleneck Features<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Obtain-Bottleneck-Features">¶</a></h3>
+<h2 id="Step-4:-Use-a-CNN-to-Classify-Dog-Breeds">Step 4: Use a CNN to Classify Dog Breeds<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-4:-Use-a-CNN-to-Classify-Dog-Breeds">Â¶</a></h2><p>To reduce training time without sacrificing accuracy, we show you how to train a CNN using transfer learning.  In the following step, you will get a chance to use transfer learning to train your own CNN.</p>
+<h3 id="Obtain-Bottleneck-Features">Obtain Bottleneck Features<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Obtain-Bottleneck-Features">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -12939,7 +12936,7 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 <div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bottleneck_features</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'bottleneck_features/DogVGG16Data.npz'</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">bottleneck_features</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'bottleneck_features/DogVGG16Data.npz'</span><span class="p">)</span>
 <span class="n">train_VGG16</span> <span class="o">=</span> <span class="n">bottleneck_features</span><span class="p">[</span><span class="s1">'train'</span><span class="p">]</span>
 <span class="n">valid_VGG16</span> <span class="o">=</span> <span class="n">bottleneck_features</span><span class="p">[</span><span class="s1">'valid'</span><span class="p">]</span>
 <span class="n">test_VGG16</span> <span class="o">=</span> <span class="n">bottleneck_features</span><span class="p">[</span><span class="s1">'test'</span><span class="p">]</span>
@@ -12954,7 +12951,7 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Model-Architecture">Model Architecture<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Model-Architecture">¶</a></h3><p>The model uses the the pre-trained VGG-16 model as a fixed feature extractor, where the last convolutional output of VGG-16 is fed as input to our model.  We only add a global average pooling layer and a fully connected layer, where the latter contains one node for each dog category and is equipped with a softmax.</p>
+<h3 id="Model-Architecture">Model Architecture<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Model-Architecture">Â¶</a></h3><p>The model uses the the pre-trained VGG-16 model as a fixed feature extractor, where the last convolutional output of VGG-16 is fed as input to our model.  We only add a global average pooling layer and a fully connected layer, where the latter contains one node for each dog category and is equipped with a softmax.</p>
 
 </div>
 </div>
@@ -12964,7 +12961,7 @@ Epoch 00010: val_loss improved from 4.86487 to 4.86046, saving model to saved_mo
 <div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">VGG16_model</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">VGG16_model</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
 <span class="n">VGG16_model</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">GlobalAveragePooling2D</span><span class="p">(</span><span class="n">input_shape</span><span class="o">=</span><span class="n">train_VGG16</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span>
 <span class="n">VGG16_model</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="mi">133</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">'softmax'</span><span class="p">))</span>
 
@@ -13008,7 +13005,7 @@ _________________________________________________________________
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Compile-the-Model">Compile the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Compile-the-Model">¶</a></h3>
+<h3 id="Compile-the-Model">Compile the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Compile-the-Model">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -13017,7 +13014,7 @@ _________________________________________________________________
 <div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">VGG16_model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">loss</span><span class="o">=</span><span class="s1">'categorical_crossentropy'</span><span class="p">,</span> <span class="n">optimizer</span><span class="o">=</span><span class="s1">'rmsprop'</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s1">'accuracy'</span><span class="p">])</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">VGG16_model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">loss</span><span class="o">=</span><span class="s1">'categorical_crossentropy'</span><span class="p">,</span> <span class="n">optimizer</span><span class="o">=</span><span class="s1">'rmsprop'</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s1">'accuracy'</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -13029,7 +13026,7 @@ _________________________________________________________________
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Train-the-Model">Train the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Train-the-Model">¶</a></h3>
+<h3 id="Train-the-Model">Train the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Train-the-Model">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -13038,8 +13035,8 @@ _________________________________________________________________
 <div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">checkpointer</span> <span class="o">=</span> <span class="n">ModelCheckpoint</span><span class="p">(</span><span class="n">filepath</span><span class="o">=</span><span class="s1">'saved_models/weights.best.VGG16.hdf5'</span><span class="p">,</span> 
-                               <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">save_best_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">checkpointer</span> <span class="o">=</span> <span class="n">ModelCheckpoint</span><span class="p">(</span><span class="n">filepath</span><span class="o">=</span><span class="s1">'saved_models/weights.best.VGG16.hdf5'</span><span class="p">,</span> 
+                               <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">save_best_only</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 
 <span class="n">VGG16_model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">train_VGG16</span><span class="p">,</span> <span class="n">train_targets</span><span class="p">,</span> 
           <span class="n">validation_data</span><span class="o">=</span><span class="p">(</span><span class="n">valid_VGG16</span><span class="p">,</span> <span class="n">valid_targets</span><span class="p">),</span>
@@ -13166,7 +13163,7 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Load-the-Model-with-the-Best-Validation-Loss">Load the Model with the Best Validation Loss<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Load-the-Model-with-the-Best-Validation-Loss">¶</a></h3>
+<h3 id="Load-the-Model-with-the-Best-Validation-Loss">Load the Model with the Best Validation Loss<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Load-the-Model-with-the-Best-Validation-Loss">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -13175,7 +13172,7 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">VGG16_model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="s1">'saved_models/weights.best.VGG16.hdf5'</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">VGG16_model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="s1">'saved_models/weights.best.VGG16.hdf5'</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13187,7 +13184,7 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Test-the-Model">Test the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Test-the-Model">¶</a></h3><p>Now, we can use the CNN to test how well it identifies breed within our test dataset of dog images.  We print the test accuracy below.</p>
+<h3 id="Test-the-Model">Test the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Test-the-Model">Â¶</a></h3><p>Now, we can use the CNN to test how well it identifies breed within our test dataset of dog images.  We print the test accuracy below.</p>
 
 </div>
 </div>
@@ -13197,12 +13194,12 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 <div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># get index of predicted dog breed for each image in test set</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># get index of predicted dog breed for each image in test set</span>
 <span class="n">VGG16_predictions</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">VGG16_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">feature</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)))</span> <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">test_VGG16</span><span class="p">]</span>
 
 <span class="c1"># report test accuracy</span>
 <span class="n">test_accuracy</span> <span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">VGG16_predictions</span><span class="p">)</span><span class="o">==</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">test_targets</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">VGG16_predictions</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Test accuracy: </span><span class="si">%.4f%%</span><span class="s1">'</span> <span class="o">%</span> <span class="n">test_accuracy</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'Test accuracy: </span><span class="si">%.4f%%</span><span class="s1">'</span> <span class="o">%</span> <span class="n">test_accuracy</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13232,7 +13229,7 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Predict-Dog-Breed-with-the-Model">Predict Dog Breed with the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Predict-Dog-Breed-with-the-Model">¶</a></h3>
+<h3 id="Predict-Dog-Breed-with-the-Model">Predict Dog Breed with the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Predict-Dog-Breed-with-the-Model">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -13241,7 +13238,7 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 <div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">extract_bottleneck_features</span> <span class="k">import</span> <span class="o">*</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">extract_bottleneck_features</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="k">def</span> <span class="nf">VGG16_predict_breed</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
     <span class="c1"># extract bottleneck features</span>
@@ -13263,7 +13260,7 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <p><a id="step5"></a></p>
-<h2 id="Step-5:-Create-a-CNN-to-Classify-Dog-Breeds-(using-Transfer-Learning)">Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-5:-Create-a-CNN-to-Classify-Dog-Breeds-(using-Transfer-Learning)">¶</a></h2><p>You will now use transfer learning to create a CNN that can identify dog breed from images.  Your CNN must attain at least 60% accuracy on the test set.</p>
+<h2 id="Step-5:-Create-a-CNN-to-Classify-Dog-Breeds-(using-Transfer-Learning)">Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-5:-Create-a-CNN-to-Classify-Dog-Breeds-(using-Transfer-Learning)">Â¶</a></h2><p>You will now use transfer learning to create a CNN that can identify dog breed from images.  Your CNN must attain at least 60% accuracy on the test set.</p>
 <p>In Step 4, we used transfer learning to create a CNN using VGG-16 bottleneck features.  In this section, you must use the bottleneck features from a different pre-trained model.  To make things easier for you, we have pre-computed the features for all of the networks that are currently available in Keras:</p>
 <ul>
 <li><a href="https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG19Data.npz">VGG-19</a> bottleneck features</li>
@@ -13277,7 +13274,7 @@ Epoch 00020: val_loss improved from 7.00127 to 6.92339, saving model to saved_mo
 
 </code></pre>
 <p>where <code>{network}</code>, in the above filename, can be one of <code>VGG19</code>, <code>Resnet50</code>, <code>InceptionV3</code>, or <code>Xception</code>.  Pick one of the above architectures, download the corresponding bottleneck features, and store the downloaded file in the <code>bottleneck_features/</code> folder in the repository.</p>
-<h3 id="(IMPLEMENTATION)-Obtain-Bottleneck-Features">(IMPLEMENTATION) Obtain Bottleneck Features<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Obtain-Bottleneck-Features">¶</a></h3><p>In the code block below, extract the bottleneck features corresponding to the train, test, and validation sets by running the following:</p>
+<h3 id="(IMPLEMENTATION)-Obtain-Bottleneck-Features">(IMPLEMENTATION) Obtain Bottleneck Features<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Obtain-Bottleneck-Features">Â¶</a></h3><p>In the code block below, extract the bottleneck features corresponding to the train, test, and validation sets by running the following:</p>
 
 <pre><code>bottleneck_features = np.load('bottleneck_features/Dog{network}Data.npz')
 train_{network} = bottleneck_features['train']
@@ -13292,7 +13289,7 @@ test_{network} = bottleneck_features['test']</code></pre>
 <div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bottleneck_features</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'bottleneck_features/DogInceptionV3Data.npz'</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">bottleneck_features</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'bottleneck_features/DogInceptionV3Data.npz'</span><span class="p">)</span>
 <span class="n">train_Inception</span> <span class="o">=</span> <span class="n">bottleneck_features</span><span class="p">[</span><span class="s1">'train'</span><span class="p">]</span>
 <span class="n">valid_Inception</span> <span class="o">=</span> <span class="n">bottleneck_features</span><span class="p">[</span><span class="s1">'valid'</span><span class="p">]</span>
 <span class="n">test_Inception</span> <span class="o">=</span> <span class="n">bottleneck_features</span><span class="p">[</span><span class="s1">'test'</span><span class="p">]</span>
@@ -13307,7 +13304,7 @@ test_{network} = bottleneck_features['test']</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Model-Architecture">(IMPLEMENTATION) Model Architecture<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Model-Architecture">¶</a></h3><p>Create a CNN to classify dog breed.  At the end of your code cell block, summarize the layers of your model by executing the line:</p>
+<h3 id="(IMPLEMENTATION)-Model-Architecture">(IMPLEMENTATION) Model Architecture<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Model-Architecture">Â¶</a></h3><p>Create a CNN to classify dog breed.  At the end of your code cell block, summarize the layers of your model by executing the line:</p>
 
 <pre><code>    &lt;your model's name&gt;.summary()
 
@@ -13323,10 +13320,42 @@ test_{network} = bottleneck_features['test']</code></pre>
 <div class="prompt input_prompt">In&nbsp;[99]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># I picked this model architecture based on best practices from the lessons. Specifically, we lopped off at the</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># I picked this model architecture based on best practices from the lessons. Specifically, we lopped off at the</span>
 <span class="c1"># end of the convolutional layers. Because of that the first thing I do is reduce the dimensionality of the model</span>
-<span class="c1"># with a GlobalAveragePooling2D step (Gap step)</span>
-<span class="c1"># Then I have 3 fully connected dense layers that end in a softmax to get a prediction for each of the 133 breeds</span>
+<span class="c1"># with a GlobalAveragePooling2D step (Gap step).</span>
+<span class="c1"># Then, between each of the fully connected layers I included a Dropout layer to ensure that no single node</span>
+<span class="c1"># had too much weight and caused the model to overfit. Dropout leaves that percentage of nodes out of the input to the</span>
+<span class="c1"># next layer in each epoch. </span>
+<span class="c1"># Then I have 3 fully connected dense layers that end in a softmax to get a prediction for each of the 133 breeds.</span>
+
+<span class="c1"># This model improved on the prior steps in the following ways....</span>
+<span class="c1"># * First, compared to my original attempt without transfer learning, this model applies transfer learning. Transfer</span>
+<span class="c1">#   learning is so much more effective because it utilizes the learnings of substantially more data. In our data set </span>
+<span class="c1">#   we only have a total of 21,584 total images - and only 8,351 are dog images (I only used dog images in my model).</span>
+<span class="c1">#   This means that the model needs to learn everything about images from that smaller dataset. This includes basic</span>
+<span class="c1">#   image information like boundaries, shapes, what constitutes an animal shape, a face, etc...</span>
+<span class="c1">#   Using a pretrained model on ImageNet gives you the ability to utilize that entire 1.2million image data set</span>
+<span class="c1">#   that categorizes images in to 1000 categories - include types of dogs. That model can take weeks to train</span>
+<span class="c1">#   and comes with understanding of what constitutes a dog. It likely understands "paw" "snout" "dog ears" etc...</span>
+<span class="c1"># * We can utilize that pre-work by cutting off the final fully connected layers, and replacing it with labels that</span>
+<span class="c1">#   identify which dog breed (which we did in both my model here and the second model). In short, we leverage</span>
+<span class="c1">#   substantially more data and a pre-trained model to get a better answer quickly in the second example (on VGG16) and</span>
+<span class="c1">#   this one (using InceptionV1). For more information on transfer learning see:</span>
+<span class="c1">#   http://cs231n.github.io/transfer-learning/ and the lectures. </span>
+
+<span class="c1"># Second, this model substantially improves on the earlier VGG16 model in a few key ways:</span>
+<span class="c1"># * This new model utilizes a three fully connected layers, instead of one. The lectures and various publications like</span>
+<span class="c1">#   https://arxiv.org/pdf/1409.1556.pdf show best practices of three fully connected layers. In a pre-trained model</span>
+<span class="c1">#   the Convolutional layers provide substantial information about what is in the image. The fully connected layers</span>
+<span class="c1">#   take that information and convert it into how those elements come together to be classified, in this case for which</span>
+<span class="c1">#   breed. Giving three fully connected layers provides more downstream layers to optimize this.</span>
+<span class="c1"># * I also included Dropout layers between each fully connected layer (and between the GlobalAveragePooling "gap" </span>
+<span class="c1">#   layer and the first flly connected layer). Utilizing Dropout layers is a best practice from the course, and </span>
+<span class="c1">#   reinforced in many publications and articles, for example: http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html</span>
+<span class="c1">#   Dropouts help prevent overfitting by dropping that percentage of nodes from each layer</span>
+<span class="c1"># * Lastly, I tested a number of different number shapes for each layer and found that 200 followed by 100 had the</span>
+<span class="c1">#   best performance. We end with a 133 potential categories in the last layer because there are 133 breeds we are</span>
+<span class="c1">#   aiming to classify.</span>
 
 <span class="n">Inception_model</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
 <span class="n">Inception_model</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">GlobalAveragePooling2D</span><span class="p">(</span><span class="n">input_shape</span><span class="o">=</span><span class="n">train_Inception</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span>
@@ -13386,7 +13415,7 @@ _________________________________________________________________
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Compile-the-Model">(IMPLEMENTATION) Compile the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Compile-the-Model">¶</a></h3>
+<h3 id="(IMPLEMENTATION)-Compile-the-Model">(IMPLEMENTATION) Compile the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Compile-the-Model">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -13395,7 +13424,7 @@ _________________________________________________________________
 <div class="prompt input_prompt">In&nbsp;[100]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># I tested rmsprop and adam, and adam performed better by ~1%</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># I tested rmsprop and adam, and adam performed better by ~1%</span>
 <span class="n">Inception_model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">loss</span><span class="o">=</span><span class="s1">'categorical_crossentropy'</span><span class="p">,</span> <span class="n">optimizer</span><span class="o">=</span><span class="s1">'adam'</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s1">'accuracy'</span><span class="p">])</span>
 </pre></div>
 
@@ -13408,7 +13437,7 @@ _________________________________________________________________
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Train-the-Model">(IMPLEMENTATION) Train the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Train-the-Model">¶</a></h3><p>Train your model in the code cell below.  Use model checkpointing to save the model that attains the best validation loss.</p>
+<h3 id="(IMPLEMENTATION)-Train-the-Model">(IMPLEMENTATION) Train the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Train-the-Model">Â¶</a></h3><p>Train your model in the code cell below.  Use model checkpointing to save the model that attains the best validation loss.</p>
 <p>You are welcome to <a href="https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html">augment the training data</a>, but this is not a requirement.</p>
 
 </div>
@@ -13419,7 +13448,7 @@ _________________________________________________________________
 <div class="prompt input_prompt">In&nbsp;[102]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">batch_size</span> <span class="o">=</span> <span class="mi">32</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">batch_size</span> <span class="o">=</span> <span class="mi">32</span>
 <span class="c1"># I originally tried this with up to 100 epochs before seeing that val_loss stopped improving around the 8th epoch.</span>
 <span class="c1"># 20 was more than enough</span>
 <span class="n">epochs</span> <span class="o">=</span> <span class="mi">20</span>
@@ -13429,7 +13458,7 @@ _________________________________________________________________
 <span class="c1"># even than with augmentation in similar time periods. And, the model was actually not improving after about 5 epochs.</span>
 
 <span class="n">checkpointer</span> <span class="o">=</span> <span class="n">ModelCheckpoint</span><span class="p">(</span><span class="n">filepath</span><span class="o">=</span><span class="s1">'saved_models/weights.best.Inception.hdf5'</span><span class="p">,</span> 
-                               <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">save_best_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                               <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">save_best_only</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 
 <span class="n">Inception_model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">train_Inception</span><span class="p">,</span> <span class="n">train_targets</span><span class="p">,</span> 
           <span class="n">validation_data</span><span class="o">=</span><span class="p">(</span><span class="n">valid_Inception</span><span class="p">,</span> <span class="n">valid_targets</span><span class="p">),</span>
@@ -13572,7 +13601,7 @@ Epoch 00020: val_loss did not improve
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Load-the-Model-with-the-Best-Validation-Loss">(IMPLEMENTATION) Load the Model with the Best Validation Loss<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Load-the-Model-with-the-Best-Validation-Loss">¶</a></h3>
+<h3 id="(IMPLEMENTATION)-Load-the-Model-with-the-Best-Validation-Loss">(IMPLEMENTATION) Load the Model with the Best Validation Loss<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Load-the-Model-with-the-Best-Validation-Loss">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -13581,7 +13610,7 @@ Epoch 00020: val_loss did not improve
 <div class="prompt input_prompt">In&nbsp;[103]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Inception_model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="s1">'saved_models/weights.best.Inception.hdf5'</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">Inception_model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="s1">'saved_models/weights.best.Inception.hdf5'</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13593,7 +13622,7 @@ Epoch 00020: val_loss did not improve
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Test-the-Model">(IMPLEMENTATION) Test the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Test-the-Model">¶</a></h3><p>Try out your model on the test dataset of dog images. Ensure that your test accuracy is greater than 60%.</p>
+<h3 id="(IMPLEMENTATION)-Test-the-Model">(IMPLEMENTATION) Test the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Test-the-Model">Â¶</a></h3><p>Try out your model on the test dataset of dog images. Ensure that your test accuracy is greater than 60%.</p>
 
 </div>
 </div>
@@ -13603,12 +13632,12 @@ Epoch 00020: val_loss did not improve
 <div class="prompt input_prompt">In&nbsp;[104]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># get index of predicted dog breed for each image in test set</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># get index of predicted dog breed for each image in test set</span>
 <span class="n">Inception_predictions</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">Inception_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">feature</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)))</span> <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">test_Inception</span><span class="p">]</span>
 
 <span class="c1"># report test accuracy</span>
 <span class="n">test_accuracy</span> <span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">Inception_predictions</span><span class="p">)</span><span class="o">==</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">test_targets</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">Inception_predictions</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Test accuracy: </span><span class="si">%.4f%%</span><span class="s1">'</span> <span class="o">%</span> <span class="n">test_accuracy</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">'Test accuracy: </span><span class="si">%.4f%%</span><span class="s1">'</span> <span class="o">%</span> <span class="n">test_accuracy</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13638,7 +13667,7 @@ Epoch 00020: val_loss did not improve
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(IMPLEMENTATION)-Predict-Dog-Breed-with-the-Model">(IMPLEMENTATION) Predict Dog Breed with the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Predict-Dog-Breed-with-the-Model">¶</a></h3><p>Write a function that takes an image path as input and returns the dog breed (<code>Affenpinscher</code>, <code>Afghan_hound</code>, etc) that is predicted by your model.</p>
+<h3 id="(IMPLEMENTATION)-Predict-Dog-Breed-with-the-Model">(IMPLEMENTATION) Predict Dog Breed with the Model<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Predict-Dog-Breed-with-the-Model">Â¶</a></h3><p>Write a function that takes an image path as input and returns the dog breed (<code>Affenpinscher</code>, <code>Afghan_hound</code>, etc) that is predicted by your model.</p>
 <p>Similar to the analogous function in Step 5, your function should have three steps:</p>
 <ol>
 <li>Extract the bottleneck features corresponding to the chosen CNN model.</li>
@@ -13660,7 +13689,7 @@ Epoch 00020: val_loss did not improve
 <div class="prompt input_prompt">In&nbsp;[105]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Write a function that takes a path to an image as input</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### Write a function that takes a path to an image as input</span>
 <span class="c1">### and returns the dog breed that is predicted by the model.</span>
 
 <span class="c1">## This was pretty straightforward, I just used the same format as the example above with VGG16</span>
@@ -13685,7 +13714,7 @@ Epoch 00020: val_loss did not improve
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <p><a id="step6"></a></p>
-<h2 id="Step-6:-Write-your-Algorithm">Step 6: Write your Algorithm<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-6:-Write-your-Algorithm">¶</a></h2><p>Write an algorithm that accepts a file path to an image and first determines whether the image contains a human, dog, or neither.  Then,</p>
+<h2 id="Step-6:-Write-your-Algorithm">Step 6: Write your Algorithm<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-6:-Write-your-Algorithm">Â¶</a></h2><p>Write an algorithm that accepts a file path to an image and first determines whether the image contains a human, dog, or neither.  Then,</p>
 <ul>
 <li>if a <strong>dog</strong> is detected in the image, return the predicted breed.</li>
 <li>if a <strong>human</strong> is detected in the image, return the resembling dog breed.</li>
@@ -13694,7 +13723,7 @@ Epoch 00020: val_loss did not improve
 <p>You are welcome to write your own functions for detecting humans and dogs in images, but feel free to use the <code>face_detector</code> and <code>dog_detector</code> functions developed above.  You are <strong>required</strong> to use your CNN from Step 5 to predict dog breed.</p>
 <p>Some sample output for our algorithm is provided below, but feel free to design your own user experience!</p>
 <p><img src="file:///Users/jkatzur/Downloads/images/sample_human_output.png" alt="Sample Human Output"></p>
-<h3 id="(IMPLEMENTATION)-Write-your-Algorithm">(IMPLEMENTATION) Write your Algorithm<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Write-your-Algorithm">¶</a></h3>
+<h3 id="(IMPLEMENTATION)-Write-your-Algorithm">(IMPLEMENTATION) Write your Algorithm<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Write-your-Algorithm">Â¶</a></h3>
 </div>
 </div>
 </div>
@@ -13703,17 +13732,17 @@ Epoch 00020: val_loss did not improve
 <div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Write your algorithm.</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### TODO: Write your algorithm.</span>
 <span class="c1">### Feel free to use as many code cells as needed.</span>
 
 <span class="k">def</span> <span class="nf">return_breed</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
     <span class="n">breed</span> <span class="o">=</span> <span class="n">my_predict_breed</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">dog_detector</span><span class="p">(</span><span class="n">img_path</span><span class="p">)):</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s2">"This dog is (predicted to be) a ... "</span><span class="p">,</span> <span class="n">breed</span><span class="p">)</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">"This dog is (predicted to be) a ... "</span><span class="p">,</span> <span class="n">breed</span><span class="p">)</span>
     <span class="k">elif</span> <span class="p">(</span><span class="n">face_detector</span><span class="p">(</span><span class="n">img_path</span><span class="p">)):</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s2">"This person looks like a ... "</span><span class="p">,</span> <span class="n">breed</span><span class="p">)</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">"This person looks like a ... "</span><span class="p">,</span> <span class="n">breed</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="s2">"What is this thing?!? Error"</span><span class="p">)</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">"What is this thing?!? Error"</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13727,8 +13756,8 @@ Epoch 00020: val_loss did not improve
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <p><a id="step7"></a></p>
-<h2 id="Step-7:-Test-Your-Algorithm">Step 7: Test Your Algorithm<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#Step-7:-Test-Your-Algorithm">¶</a></h2><p>In this section, you will take your new algorithm for a spin!  What kind of dog does the algorithm think that <strong>you</strong> look like?  If you have a dog, does it predict your dog's breed accurately?  If you have a cat, does it mistakenly think that your cat is a dog?</p>
-<h3 id="(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">(IMPLEMENTATION) Test Your Algorithm on Sample Images!<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(1).html#(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">¶</a></h3><p>Test your algorithm at least six images on your computer.  Feel free to use any images you like.  Use at least two human and two dog images.</p>
+<h2 id="Step-7:-Test-Your-Algorithm">Step 7: Test Your Algorithm<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#Step-7:-Test-Your-Algorithm">Â¶</a></h2><p>In this section, you will take your new algorithm for a spin!  What kind of dog does the algorithm think that <strong>you</strong> look like?  If you have a dog, does it predict your dog's breed accurately?  If you have a cat, does it mistakenly think that your cat is a dog?</p>
+<h3 id="(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">(IMPLEMENTATION) Test Your Algorithm on Sample Images!<a class="anchor-link" href="file:///Users/jkatzur/Downloads/dog_app%20(2).html#(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">Â¶</a></h3><p>Test your algorithm at least six images on your computer.  Feel free to use any images you like.  Use at least two human and two dog images.</p>
 <p><strong>Question 6:</strong> Is the output better than you expected :) ?  Or worse :( ?  Provide at least three possible points of improvement for your algorithm.</p>
 <p><strong>Answer:</strong></p>
 
@@ -13740,7 +13769,7 @@ Epoch 00020: val_loss did not improve
 <div class="prompt input_prompt">In&nbsp;[107]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Execute your algorithm from Step 6 on at least 6 images on your computer.</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## Execute your algorithm from Step 6 on at least 6 images on your computer.</span>
 
 <span class="c1"># The output is much better than I expected. The accuracy was 81.4% in the model and got 5/5 for images of dogs. The</span>
 <span class="c1"># model would have predicted 4 / 5. In an earlier iteration I got 4/5, but apparently recent tweaks + some luck got me</span>
@@ -13819,6 +13848,19 @@ This person looks like a ...  Poodle
 </div>
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span> 
+</pre></div>
+
+</div>
 </div>
 </div>
 
